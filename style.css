@@ -1,0 +1,114 @@
+* {
+    font-family: sans-serif;
+}
+
+.dark{
+    background-color: #111111;
+    color: azure;
+}
+
+.light{
+    background-color: white;
+    color: black;
+}
+
+.container{
+    border: 2px solid gray;
+    padding: 20px;
+    margin: 20px;
+}
+
+.selectionField{
+    padding: 10px;
+    margin: 10px;
+}
+
+.removePanelSection{
+    min-height: 60px;
+}
+
+.button{
+    padding: 10px;
+    margin: 10px;
+}
+
+.buttonRemove{
+    float: right;
+}
+
+.checkbox{
+    padding: 5px;
+    margin: 5px;
+}
+
+#boxInserter{
+    position: static;
+    min-width: 300px;
+    min-height: 50px;
+    border: 2px dashed cyan;
+
+}
+
+.panel{
+    min-width: 42%;
+    float: left;
+}
+
+.box{
+    min-width: 300px;
+    min-height: 80px;
+    position: static;
+    transition: 0.00001s;
+    background-color: darkgrey;
+}
+
+.selectedBox{
+    position: fixed;
+    /* left: auto;
+    top: auto; */
+}
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+.disabled{
+    pointer-events: none;
+}
+
+.textnoselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+
+.imagenoselect img {
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.grabElementSection{
+    height: 48px;
+    width: 24px;
+    float: right;
+    background-color: gray;
+    padding: 5px;
+    margin: 5px;
+}
+
+.grabElementSection img{
+    height: 32px;
+    width: 16px;
+}
